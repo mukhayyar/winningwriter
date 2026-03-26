@@ -17,9 +17,10 @@
     </a>
     <div class="nav-links">
       <a href="index.html#conferences">← All Conferences</a>
+      <a href="#papers">Papers</a>
       <a href="#patterns">Patterns</a>
       <a href="#figures">Figures</a>
-      <a href="#papers">Papers</a>
+      <a href="#checker">Checklist</a>
     </div>
   </div>
 </nav>
@@ -37,9 +38,9 @@
     <div class="hero-stats">
       <div class="stat"><span class="stat-n">4</span><span class="stat-l">Papers Analyzed</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Winning Papers</span></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Best Papers</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-n">1</span><span class="stat-l">Best Paper</span></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Accepted Papers</span></div>
       <div class="stat-div"></div>
       <div class="stat"><span class="stat-n">~7</span><span class="stat-l">Avg. Pages</span></div>
     </div>
@@ -60,7 +61,7 @@
 
       <div class="paper-card" onclick="togglePaper('p1')">
         <div class="paper-card-top">
-          <span class="badge badge-green">Winning Paper · IES 2024</span>
+          <span class="badge badge-gold">Best Paper · IES 2024</span>
           <span class="paper-toggle" id="p1-arrow">▼</span>
         </div>
         <h3>Compact and Lightweight Foldable Umbrella Heatshield for CanSat</h3>
@@ -69,7 +70,7 @@
         </div>
         <div class="paper-details" id="p1">
           <div class="pd-section">
-            <div class="pd-title">Why It Won</div>
+            <div class="pd-title">Why It Won Best Paper</div>
             <ul>
               <li>Multi-function mechanism (heatshield does 3 jobs simultaneously) — signals engineering efficiency</li>
               <li>Actual test flight data from rocket launch — proves the concept at real scale</li>
@@ -252,7 +253,7 @@
         </div>
         <div class="pattern-item">
           <strong>Acknowledge partial failures</strong>
-          <p>The winning CanSat paper openly reports a failure and explains the mechanism. Reviewers trust this more than "everything worked perfectly."</p>
+          <p>The heatshield best paper openly reports a failure and explains the mechanism. Reviewers trust this more than "everything worked perfectly."</p>
         </div>
       </div>
       <div class="pattern-col">
@@ -325,6 +326,67 @@
         <div class="fc-icon">📐</div>
         <h4>Technical Drawing with Dimensions</h4>
         <p>Annotated diagram with measurements, labels, or specifications. Signals engineering rigor. Present in winning CanSat and Best Paper.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CHECKLIST ═══ -->
+<section class="section section-dark" id="checker">
+  <div class="container">
+    <div class="section-header light">
+      <h2>IES Pre-Submission Checklist</h2>
+      <p>Check every box before submitting. Sourced from patterns across all 4 analyzed IES papers.</p>
+    </div>
+    <div class="checklist-wrap">
+      <div class="checklist-group">
+        <div class="checklist-group-title">Introduction &amp; Framing</div>
+        <label class="check-item"><input type="checkbox" /> Opens with a quantifiable, real-world problem (stat, constraint, or gap)</label>
+        <label class="check-item"><input type="checkbox" /> Research gap stated explicitly in its own paragraph</label>
+        <label class="check-item"><input type="checkbox" /> Your contribution is clearly listed (numbered or bulleted)</label>
+        <label class="check-item"><input type="checkbox" /> Related work reviews at least 5 prior systems and positions yours beyond them</label>
+      </div>
+      <div class="checklist-group">
+        <div class="checklist-group-title">Methodology &amp; Design</div>
+        <label class="check-item"><input type="checkbox" /> Every major design choice justified by data or literature</label>
+        <label class="check-item"><input type="checkbox" /> At least one comparative analysis (2+ options side-by-side)</label>
+        <label class="check-item"><input type="checkbox" /> System architecture diagram present</label>
+        <label class="check-item"><input type="checkbox" /> Success criteria defined (target values stated upfront)</label>
+        <label class="check-item"><input type="checkbox" /> Algorithm or workflow formally specified (pseudocode / flowchart)</label>
+      </div>
+      <div class="checklist-group">
+        <div class="checklist-group-title">Results &amp; Evaluation</div>
+        <label class="check-item"><input type="checkbox" /> Quantitative results reported (numbers, not just "it works")</label>
+        <label class="check-item"><input type="checkbox" /> Results chart or graph present (not tables alone)</label>
+        <label class="check-item"><input type="checkbox" /> Results compared against a baseline or alternative</label>
+        <label class="check-item"><input type="checkbox" /> Success criteria outcome reported (met / not met, and why)</label>
+        <label class="check-item"><input type="checkbox" /> Hardware photo or implementation screenshot present (proof of build)</label>
+        <label class="check-item"><input type="checkbox" /> Evaluation metrics formally defined</label>
+      </div>
+      <div class="checklist-group">
+        <div class="checklist-group-title">Limitations &amp; Future Work</div>
+        <label class="check-item"><input type="checkbox" /> Limitations stated honestly with root-cause explanation</label>
+        <label class="check-item"><input type="checkbox" /> Scope clearly bounded (what this study does NOT cover)</label>
+        <label class="check-item"><input type="checkbox" /> Future work is concrete and planned, not vague ("maybe someday")</label>
+        <label class="check-item"><input type="checkbox" /> Future work items are numbered and actionable</label>
+      </div>
+      <div class="checklist-group">
+        <div class="checklist-group-title">IES Format</div>
+        <label class="check-item"><input type="checkbox" /> Paper is 6–8 pages (5 feels light, 9+ may get cut)</label>
+        <label class="check-item"><input type="checkbox" /> Has 9–13 figures total</label>
+        <label class="check-item"><input type="checkbox" /> Has system architecture + flowchart + at least one results chart</label>
+      </div>
+      <div class="checklist-group">
+        <div class="checklist-group-title">Do NOT Include</div>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Vague conclusions ("the system works well", "promising results")</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Unjustified design choices ("we chose X because we liked it")</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Cherry-picked results (hide all 7×10 respondent data or all sensor runs)</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Design-only work with no validation (at minimum: simulation)</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ No comparison to alternatives or prior work</label>
+      </div>
+      <div class="checklist-score" id="scoreBox">
+        <span id="scoreText">0 / 25 checked</span>
+        <div class="score-bar-track"><div class="score-bar-fill" id="scoreBar"></div></div>
       </div>
     </div>
   </div>
