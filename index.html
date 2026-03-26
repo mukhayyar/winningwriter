@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WinningWriter — Learn from Accepted Papers</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ═══════════════════════ NAV ═══════════════════════ -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">✦</span> WinningWriter
+    </a>
+    <div class="nav-links">
+      <a href="#conferences">Conferences</a>
+      <a href="#checker">Checklist</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">Built from accepted &amp; best-paper submissions</div>
+    <h1>Write papers that<br><span class="accent">reviewers accept.</span></h1>
+    <p class="hero-sub">
+      Patterns extracted from real accepted papers at IES and other top conferences.
+      Learn what works, avoid what doesn't, and validate your manuscript before submission.
+    </p>
+    <div class="hero-actions">
+      <a href="#conferences" class="btn-primary">Browse Patterns</a>
+      <a href="#checker" class="btn-secondary">Run Checklist</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n">4</span><span class="stat-l">Papers Analyzed</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Winning Papers</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">1</span><span class="stat-l">Conference</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">8</span><span class="stat-l">Must-Do Patterns</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ CONFERENCES ═══════════════════════ -->
+<section class="section" id="conferences">
+  <div class="container">
+    <div class="section-header">
+      <h2>Conferences &amp; Journals</h2>
+      <p>Click a conference to see its winning patterns, figure strategy, and checklist.</p>
+    </div>
+
+    <div class="conf-grid">
+
+      <!-- IES Card -->
+      <a href="ies.html" class="conf-card conf-ies">
+        <div class="conf-tag">4 papers analyzed</div>
+        <div class="conf-logo-area">
+          <div class="conf-abbr">IES</div>
+        </div>
+        <div class="conf-info">
+          <h3>International Electronics Symposium</h3>
+          <p>Politeknik Elektronika Negeri Surabaya (PENS)</p>
+          <div class="conf-meta">
+            <span class="badge badge-green">2 Winning Papers</span>
+            <span class="badge badge-gold">1 Best Paper</span>
+            <span class="badge badge-blue">IES 2026 Open</span>
+          </div>
+        </div>
+        <div class="conf-arrow">→</div>
+      </a>
+
+      <!-- Placeholder card -->
+      <div class="conf-card conf-placeholder">
+        <div class="conf-info" style="text-align:center; width:100%">
+          <div style="font-size:2.5rem; margin-bottom:0.75rem; opacity:0.3">+</div>
+          <h3 style="color: var(--muted)">Add a Conference</h3>
+          <p style="color: var(--muted-2)">Submit accepted papers to expand the database</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FORMULA ═══════════════════════ -->
+<section class="section section-dark" id="formula">
+  <div class="container">
+    <div class="section-header light">
+      <h2>The Universal Winning Formula</h2>
+      <p>Patterns present across <strong>every</strong> accepted paper we've analyzed.</p>
+    </div>
+
+    <div class="formula-grid">
+      <div class="formula-item">
+        <div class="formula-num">01</div>
+        <h4>Quantifiable Problem Opening</h4>
+        <p>Open with a real, measurable problem — a statistic, a gap, a hard constraint. Never vague motivation.</p>
+        <div class="example-chip">e.g. "harvest area down 2.45% year-over-year"</div>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">02</div>
+        <h4>Explicit Research Gap</h4>
+        <p>State the gap directly: <em>"while X has been studied, there is a gap in Y."</em> The Best Paper does this with one dedicated paragraph.</p>
+        <div class="example-chip">Best Paper strength</div>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">03</div>
+        <h4>Justified Design Choices</h4>
+        <p>Every component selection backed by data or literature — never "we chose X because we thought it was good."</p>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">04</div>
+        <h4>Comparative Analysis</h4>
+        <p>Show at least 2 approaches, materials, or methods side-by-side. Alternatives considered and rejected with reasons.</p>
+        <div class="example-chip">Table or side-by-side figure</div>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">05</div>
+        <h4>Multi-Level Evidence</h4>
+        <p>Validate through multiple channels: theory + simulation + hardware test, or design + user study + metrics.</p>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">06</div>
+        <h4>Defined Success Criteria</h4>
+        <p>State the target upfront (e.g., descent rate ≤ 20 m/s, success rate ≥ 75%) and explicitly report whether it was met.</p>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">07</div>
+        <h4>Honest Limitations + Root Cause</h4>
+        <p>Name failures and explain why they're acceptable. "Parachute late inflation caused by heatshield blocking upward airflow."</p>
+      </div>
+      <div class="formula-item">
+        <div class="formula-num">08</div>
+        <h4>Result Visualization — Not Just Tables</h4>
+        <p>Every accepted paper has charts/graphs alongside tables. Raw data visualized, not just numbers in text.</p>
+        <div class="example-chip badge-red-chip">Most common gap</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FIGURE STRATEGY ═══════════════════════ -->
+<section class="section" id="figures">
+  <div class="container">
+    <div class="section-header">
+      <h2>Figure Strategy</h2>
+      <p>The combination of figure types present in <strong>every</strong> accepted IES paper.</p>
+    </div>
+    <div class="fig-table-wrap">
+      <table class="fig-table">
+        <thead>
+          <tr>
+            <th>Figure Type</th>
+            <th>Purpose</th>
+            <th>Heatshield ✦</th>
+            <th>Thermal ✦★</th>
+            <th>AR Batik</th>
+            <th>AWS IoT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>System Architecture</strong></td>
+            <td>Shows all components and flow</td>
+            <td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td>
+          </tr>
+          <tr>
+            <td><strong>Technical Drawing / Diagram</strong></td>
+            <td>Dimensioned, annotated design detail</td>
+            <td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td>
+          </tr>
+          <tr>
+            <td><strong>Comparative Visualization</strong></td>
+            <td>Same metric across multiple options</td>
+            <td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td>
+          </tr>
+          <tr>
+            <td><strong>Results Chart / Graph</strong></td>
+            <td>Raw data plotted, not just in table</td>
+            <td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td>
+          </tr>
+          <tr>
+            <td><strong>Hardware / Implementation Photo</strong></td>
+            <td>Proof the system was actually built</td>
+            <td class="yes">✓</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td>
+          </tr>
+          <tr class="row-note">
+            <td colspan="6">
+              ✦ Winning Paper &nbsp;|&nbsp; ★ Best Paper &nbsp;|&nbsp;
+              Note: Thermal (Best Paper) has no hardware photo — FEM simulations serve as the visual proof instead.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="insight-box">
+      <span class="insight-icon">💡</span>
+      <div>
+        <strong>Key insight:</strong> Figures are never decorative. Each one has a specific analytical job —
+        validate design, compare alternatives, show results, or prove implementation. Papers with only tables
+        and no charts are consistently weaker.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ CHECKLIST ═══════════════════════ -->
+<section class="section section-dark" id="checker">
+  <div class="container">
+    <div class="section-header light">
+      <h2>Pre-Submission Checklist</h2>
+      <p>Check every box before submitting. Based on patterns from all analyzed accepted papers.</p>
+    </div>
+
+    <div class="checklist-wrap">
+      <div class="checklist-group">
+        <div class="checklist-group-title">Introduction &amp; Framing</div>
+        <label class="check-item"><input type="checkbox" /> Opens with a quantifiable, real-world problem (stat, constraint, or gap)</label>
+        <label class="check-item"><input type="checkbox" /> Research gap stated explicitly in its own paragraph</label>
+        <label class="check-item"><input type="checkbox" /> Your contribution is clearly listed (numbered or bulleted)</label>
+        <label class="check-item"><input type="checkbox" /> Related work reviews at least 5 prior systems and positions yours beyond them</label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="checklist-group-title">Methodology &amp; Design</div>
+        <label class="check-item"><input type="checkbox" /> Every major design choice justified by data or literature</label>
+        <label class="check-item"><input type="checkbox" /> At least one comparative analysis (2+ options side-by-side)</label>
+        <label class="check-item"><input type="checkbox" /> System architecture diagram present</label>
+        <label class="check-item"><input type="checkbox" /> Success criteria defined (target values stated upfront)</label>
+        <label class="check-item"><input type="checkbox" /> Algorithm or workflow formally specified (pseudocode / flowchart)</label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="checklist-group-title">Results &amp; Evaluation</div>
+        <label class="check-item"><input type="checkbox" /> Quantitative results reported (numbers, not just "it works")</label>
+        <label class="check-item"><input type="checkbox" /> Results chart or graph present (not tables alone)</label>
+        <label class="check-item"><input type="checkbox" /> Results compared against a baseline or alternative</label>
+        <label class="check-item"><input type="checkbox" /> Success criteria outcome reported (met / not met, and why)</label>
+        <label class="check-item"><input type="checkbox" /> Hardware photo or implementation screenshot present (proof of build)</label>
+        <label class="check-item"><input type="checkbox" /> Evaluation metrics formally defined</label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="checklist-group-title">Limitations &amp; Future Work</div>
+        <label class="check-item"><input type="checkbox" /> Limitations stated honestly with root-cause explanation</label>
+        <label class="check-item"><input type="checkbox" /> Scope clearly bounded (what this study does NOT cover)</label>
+        <label class="check-item"><input type="checkbox" /> Future work is concrete and planned, not vague ("maybe someday")</label>
+        <label class="check-item"><input type="checkbox" /> Future work items are numbered and actionable</label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="checklist-group-title">Do NOT Include</div>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Vague conclusions ("the system works well", "promising results")</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Unjustified design choices ("we chose X because we liked it")</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Cherry-picked results (hide all 7×10 respondent data or all sensor runs)</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ Design-only work with no validation (at minimum: simulation)</label>
+        <label class="check-item warn"><input type="checkbox" /> ✗ No comparison to alternatives or prior work</label>
+      </div>
+
+      <div class="checklist-score" id="scoreBox">
+        <span id="scoreText">0 / 22 checked</span>
+        <div class="score-bar-track"><div class="score-bar-fill" id="scoreBar"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <h2>About WinningWriter</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          WinningWriter is a pattern-extraction tool built from real accepted and best-paper
+          submissions at academic conferences. Rather than generic writing advice, every pattern
+          here is sourced directly from papers that reviewers actually accepted.
+        </p>
+        <p>
+          The database grows with each conference. Currently covers IES (International Electronics
+          Symposium, PENS Surabaya) with 4 analyzed papers including 2 winning papers and 1 best
+          paper award winner.
+        </p>
+        <p>
+          Planned: IEEE TENCON, ICICI-BME, EECCIS, and more. If you have accepted papers you'd
+          like to contribute for analysis, the patterns will be extracted and added here.
+        </p>
+      </div>
+      <div class="about-cards">
+        <div class="about-stat-card">
+          <div class="asc-n">IES 2024</div>
+          <div class="asc-l">Compact Foldable Umbrella Heatshield for CanSat</div>
+          <span class="badge badge-green">Winning Paper</span>
+        </div>
+        <div class="about-stat-card">
+          <div class="asc-n">IES 2025</div>
+          <div class="asc-l">Thermal Deformation Analysis of CanSat Frame Materials</div>
+          <span class="badge badge-gold">Best Paper</span>
+        </div>
+        <div class="about-stat-card">
+          <div class="asc-n">IES</div>
+          <div class="asc-l">AR Batik Gamification System</div>
+          <span class="badge badge-blue">Accepted</span>
+        </div>
+        <div class="about-stat-card">
+          <div class="asc-n">IES</div>
+          <div class="asc-l">AWS IoT Agriculture Monitoring</div>
+          <span class="badge badge-blue">Accepted</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="logo-icon">✦</span> WinningWriter &nbsp;·&nbsp; Patterns from accepted papers
+      <span class="footer-right">winningwriter.mukhayyar.my.id</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

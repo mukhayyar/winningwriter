@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IES — WinningWriter</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">✦</span> WinningWriter
+    </a>
+    <div class="nav-links">
+      <a href="index.html#conferences">← All Conferences</a>
+      <a href="#patterns">Patterns</a>
+      <a href="#figures">Figures</a>
+      <a href="#papers">Papers</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="conf-hero conf-hero-ies">
+  <div class="hero-inner">
+    <div class="conf-hero-meta">
+      <a href="index.html" class="breadcrumb">WinningWriter</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>IES</span>
+    </div>
+    <h1>International Electronics<br>Symposium <span class="accent-ies">IES</span></h1>
+    <p class="hero-sub">Politeknik Elektronika Negeri Surabaya (PENS) · Indonesia</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n">4</span><span class="stat-l">Papers Analyzed</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Winning Papers</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">1</span><span class="stat-l">Best Paper</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n">~7</span><span class="stat-l">Avg. Pages</span></div>
+    </div>
+    <div class="conf-links">
+      <a href="https://ies.pens.ac.id/2026/" target="_blank" class="btn-primary">IES 2026 Website →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PAPER GALLERY ═══ -->
+<section class="section" id="papers">
+  <div class="container">
+    <div class="section-header">
+      <h2>Analyzed Papers</h2>
+      <p>Click a paper to see its specific patterns and reviewer signals.</p>
+    </div>
+    <div class="paper-grid">
+
+      <div class="paper-card" onclick="togglePaper('p1')">
+        <div class="paper-card-top">
+          <span class="badge badge-green">Winning Paper · IES 2024</span>
+          <span class="paper-toggle" id="p1-arrow">▼</span>
+        </div>
+        <h3>Compact and Lightweight Foldable Umbrella Heatshield for CanSat</h3>
+        <div class="paper-meta">
+          <span>8 pages</span> · <span>15 figures</span> · <span>3 tables</span> · <span>18 refs</span>
+        </div>
+        <div class="paper-details" id="p1">
+          <div class="pd-section">
+            <div class="pd-title">Why It Won</div>
+            <ul>
+              <li>Multi-function mechanism (heatshield does 3 jobs simultaneously) — signals engineering efficiency</li>
+              <li>Actual test flight data from rocket launch — proves the concept at real scale</li>
+              <li>Material selection through comparative analysis across 6 candidates, not gut feeling</li>
+              <li>Acknowledges parachute failure + explains root cause (late inflation from blocked airflow)</li>
+            </ul>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Figure Breakdown</div>
+            <div class="fig-pills">
+              <span class="fig-pill">Mission overview diagram</span>
+              <span class="fig-pill">CAD renders (exploded views)</span>
+              <span class="fig-pill">Leadscrew mechanism drawing</span>
+              <span class="fig-pill">3D assembly renders</span>
+              <span class="fig-pill">3-step deployment photos</span>
+              <span class="fig-pill">Flight software flowchart</span>
+              <span class="fig-pill">Altitude vs packet count graph</span>
+              <span class="fig-pill">Tilt stability scatter plot</span>
+              <span class="fig-pill">Actual launch photo</span>
+            </div>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Results Method</div>
+            <p>Comparison tables (density, durability, melt temp, cost) + line graphs of sensor telemetry + MAE stability metrics. Calculated vs. actual comparison.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper-card" onclick="togglePaper('p2')">
+        <div class="paper-card-top">
+          <span class="badge badge-gold">Best Paper · IES 2025</span>
+          <span class="paper-toggle" id="p2-arrow">▼</span>
+        </div>
+        <h3>Thermal Deformation Analysis of CanSat Frame Materials using FEM</h3>
+        <div class="paper-meta">
+          <span>6 pages</span> · <span>12 figures</span> · <span>6 tables</span> · <span>11 refs</span>
+        </div>
+        <div class="paper-details" id="p2">
+          <div class="pd-section">
+            <div class="pd-title">Why It Won Best Paper</div>
+            <ul>
+              <li>Fills an <strong>explicitly named</strong> research gap ("comparative FEM at assembled system level — not studied before")</li>
+              <li>FEM heat maps = visual proof more impactful than any table (color-coded stress distribution)</li>
+              <li>Makes a real engineering trade-off recommendation (polycarbonate vs. composite), not just reporting data</li>
+              <li>Rigorous FEM with mesh sensitivity analysis documented</li>
+              <li>Future work explicitly planned: thermal chamber testing to confirm simulation</li>
+            </ul>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Figure Breakdown</div>
+            <div class="fig-pills">
+              <span class="fig-pill">Chemical structure diagrams</span>
+              <span class="fig-pill">CanSat cross-section with zones</span>
+              <span class="fig-pill">FEM mesh visualization</span>
+              <span class="fig-pill">Boundary condition diagram</span>
+              <span class="fig-pill highlight-pill">Deformation heat maps ×3</span>
+              <span class="fig-pill highlight-pill">Von-Mises stress maps ×3</span>
+              <span class="fig-pill">Technical drawings with dimensions</span>
+            </div>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Results Method</div>
+            <p>FEM color visualization (false-color scale, red=high/blue=low) + comparative table (3 materials × 2 metrics). Clear winner per criterion, not single winner overall.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper-card" onclick="togglePaper('p3')">
+        <div class="paper-card-top">
+          <span class="badge badge-blue">Accepted · IES</span>
+          <span class="paper-toggle" id="p3-arrow">▼</span>
+        </div>
+        <h3>AR Batik Gamification System for Cultural Education</h3>
+        <div class="paper-meta">
+          <span>8 pages</span> · <span>9 figures</span> · <span>5 tables</span> · <span>25 refs</span>
+        </div>
+        <div class="paper-details" id="p3">
+          <div class="pd-section">
+            <div class="pd-title">Reviewer Signals</div>
+            <ul>
+              <li>Opens with quantified cultural decline (2024 survey: only 29.6% adolescents wear Batik)</li>
+              <li>Usability testing with 7 real users, full response matrix shown (7×10 grid, nothing hidden)</li>
+              <li>82.86% success rate explicitly compared against 75% standard threshold</li>
+              <li>Each gamification element tied to learning psychology literature</li>
+              <li>25 references — deepest literature coverage of the 4 papers</li>
+            </ul>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Figure Breakdown</div>
+            <div class="fig-pills">
+              <span class="fig-pill">6-stage methodology flowchart</span>
+              <span class="fig-pill">IPO architecture diagram</span>
+              <span class="fig-pill">UI: Batik selection menu</span>
+              <span class="fig-pill">UI: AR scan interface</span>
+              <span class="fig-pill">UI: AR drawing challenge</span>
+              <span class="fig-pill">UI: Result with star rating</span>
+              <span class="fig-pill">UI: Leaderboard</span>
+              <span class="fig-pill">UI: User profile + achievements</span>
+            </div>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Results Method</div>
+            <p>Full 7×10 respondent response matrix (1 / 0.5 / 0 scale) + step-by-step formula calculation + threshold comparison. Transparent, nothing cherry-picked.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper-card" onclick="togglePaper('p4')">
+        <div class="paper-card-top">
+          <span class="badge badge-blue">Accepted · IES</span>
+          <span class="paper-toggle" id="p4-arrow">▼</span>
+        </div>
+        <h3>Real-Time IoT Agriculture Monitoring using AWS Cloud Services</h3>
+        <div class="paper-meta">
+          <span>7 pages</span> · <span>13 figures</span> · <span>3 tables</span> · <span>20 refs</span>
+        </div>
+        <div class="paper-details" id="p4">
+          <div class="pd-section">
+            <div class="pd-title">Reviewer Signals</div>
+            <ul>
+              <li>Opens with BPS agricultural statistics (harvest area, production volume) — real national data</li>
+              <li>Architecture bottom-up: sensor → protocol → cloud services → visualization</li>
+              <li>Each AWS service explained with its specific role (not just "we used AWS")</li>
+              <li>Sequential implementation screenshots: 9 steps from device registration to live dashboard</li>
+              <li>MQTT client test results screenshot = proof of working connection</li>
+            </ul>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Figure Breakdown</div>
+            <div class="fig-pills">
+              <span class="fig-pill">System design block diagram</span>
+              <span class="fig-pill">Data flow flowchart</span>
+              <span class="fig-pill">AWS IoT ecosystem diagram</span>
+              <span class="fig-pill">SNS service diagram</span>
+              <span class="fig-pill highlight-pill">9 implementation screenshots</span>
+              <span class="fig-pill highlight-pill">Live dashboard with charts</span>
+              <span class="fig-pill">Hardware prototype photo</span>
+            </div>
+          </div>
+          <div class="pd-section">
+            <div class="pd-title">Results Method</div>
+            <p>Implementation narrative with sequential screenshots as validation evidence. Final dashboard shows multiple chart types (area, pie, gauge). Each step validated before moving to next.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ IES-SPECIFIC PATTERNS ═══ -->
+<section class="section section-dark" id="patterns">
+  <div class="container">
+    <div class="section-header light">
+      <h2>IES-Specific Patterns</h2>
+      <p>Observations specific to IES across all analyzed papers.</p>
+    </div>
+    <div class="pattern-cols">
+      <div class="pattern-col">
+        <div class="pattern-col-title green-title">✓ DO</div>
+        <div class="pattern-item">
+          <strong>6–8 pages</strong>
+          <p>All 4 papers are 6–8 pages. 5 pages may feel light; 9+ may get cut.</p>
+        </div>
+        <div class="pattern-item">
+          <strong>9–13 figures</strong>
+          <p>Visual density signals completeness. Papers with &lt;6 figures tend to feel unfinished.</p>
+        </div>
+        <div class="pattern-item">
+          <strong>System + Flowchart + Results chart</strong>
+          <p>Three figure types appear in every paper. Missing one is a common rejection risk.</p>
+        </div>
+        <div class="pattern-item">
+          <strong>Name your research gap explicitly</strong>
+          <p>Best Paper states it as its own sentence. Others imply it — but explicit wins.</p>
+        </div>
+        <div class="pattern-item">
+          <strong>Define success criteria before results</strong>
+          <p>e.g., "Target descent rate ≤ 20 m/s" stated in methodology, then confirmed in results.</p>
+        </div>
+        <div class="pattern-item">
+          <strong>Acknowledge partial failures</strong>
+          <p>The winning CanSat paper openly reports a failure and explains the mechanism. Reviewers trust this more than "everything worked perfectly."</p>
+        </div>
+      </div>
+      <div class="pattern-col">
+        <div class="pattern-col-title red-title">✗ DON'T</div>
+        <div class="pattern-item warn-item">
+          <strong>Only tables, no charts</strong>
+          <p>Zero accepted papers use tables as their sole result presentation. Add at least one chart.</p>
+        </div>
+        <div class="pattern-item warn-item">
+          <strong>Vague "future work"</strong>
+          <p>"Further research is needed" does not count. Name the specific next step.</p>
+        </div>
+        <div class="pattern-item warn-item">
+          <strong>Justify choices by preference</strong>
+          <p>"We selected X because it is popular" — always replace with a reference or measured comparison.</p>
+        </div>
+        <div class="pattern-item warn-item">
+          <strong>Design without validation</strong>
+          <p>Minimum acceptable: simulation results. All 4 accepted papers have empirical or user-tested evidence.</p>
+        </div>
+        <div class="pattern-item warn-item">
+          <strong>No comparison to alternatives</strong>
+          <p>Every accepted paper compares at least 2 options. Reviewers expect to see alternatives rejected.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FIGURE DETAIL ═══ -->
+<section class="section" id="figures">
+  <div class="container">
+    <div class="section-header">
+      <h2>Figure Combinations That Work</h2>
+      <p>Minimum viable figure set for IES based on all accepted papers.</p>
+    </div>
+    <div class="fig-combo-grid">
+      <div class="fig-combo-card required">
+        <div class="fc-label">Required</div>
+        <div class="fc-icon">🏗</div>
+        <h4>System Architecture</h4>
+        <p>Block diagram or component diagram showing all major parts and their connections. Every single accepted paper has this.</p>
+      </div>
+      <div class="fig-combo-card required">
+        <div class="fc-label">Required</div>
+        <div class="fc-icon">🔄</div>
+        <h4>Process Flow / Flowchart</h4>
+        <p>How data or control moves through the system. Decision diamonds, process boxes, arrows. Shows reviewer you understand the full pipeline.</p>
+      </div>
+      <div class="fig-combo-card required">
+        <div class="fc-label">Required</div>
+        <div class="fc-icon">📊</div>
+        <h4>Results Chart</h4>
+        <p>At least one chart or graph visualizing your results data. Bar chart, line graph, scatter plot, heat map — any format. Tables alone are not enough.</p>
+      </div>
+      <div class="fig-combo-card required">
+        <div class="fc-label">Required</div>
+        <div class="fc-icon">⚖️</div>
+        <h4>Comparative Visual</h4>
+        <p>Side-by-side comparison of 2+ options, materials, or methods. Table or paired figures. Shows design choices are data-driven.</p>
+      </div>
+      <div class="fig-combo-card strong">
+        <div class="fc-label">Strong</div>
+        <div class="fc-icon">📷</div>
+        <h4>Implementation Photo / Screenshot</h4>
+        <p>Hardware built and photographed, or screenshots of a running system. 3 of 4 accepted papers include this. FEM heat maps serve the same "proof of work" function.</p>
+      </div>
+      <div class="fig-combo-card strong">
+        <div class="fc-label">Strong</div>
+        <div class="fc-icon">📐</div>
+        <h4>Technical Drawing with Dimensions</h4>
+        <p>Annotated diagram with measurements, labels, or specifications. Signals engineering rigor. Present in winning CanSat and Best Paper.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="logo-icon">✦</span> WinningWriter &nbsp;·&nbsp; IES Patterns
+      <span class="footer-right"><a href="index.html">← Back to all conferences</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
