@@ -54,9 +54,24 @@ a:hover { color: var(--accent-2); }
   display: flex; align-items: center; gap: 0.4rem;
 }
 .logo-icon { color: var(--accent); font-size: 1.1rem; }
-.nav-links { display: flex; gap: 1.5rem; }
+.nav-links { display: flex; align-items: center; gap: 1.5rem; }
 .nav-links a { color: var(--muted); font-size: 0.875rem; transition: color 0.2s; }
 .nav-links a:hover { color: var(--text); }
+.lang-btn {
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  line-height: 1.6;
+}
+.lang-btn:hover { color: var(--text); border-color: var(--accent); }
 
 /* ─── CONTAINER ─── */
 .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }

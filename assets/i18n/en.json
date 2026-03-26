@@ -1,0 +1,419 @@
+{
+  "lang": "en",
+  "meta": {
+    "index_title": "WinningWriter — Learn from Accepted Papers",
+    "ies_title": "IES — WinningWriter"
+  },
+  "nav": {
+    "home": "WinningWriter",
+    "conferences": "Conferences",
+    "formula": "Formula",
+    "fig_strategy": "Figure Strategy",
+    "about": "About",
+    "all_conferences": "← All Conferences",
+    "papers": "Papers",
+    "patterns": "Patterns",
+    "fig_combos": "Figure Combos",
+    "checklist": "Checklist",
+    "lang_label": "ID"
+  },
+  "hero": {
+    "badge": "Built from accepted & best-paper submissions",
+    "h1": "Write papers that <span class=\"accent\">reviewers accept.</span>",
+    "sub": "Patterns extracted from real accepted papers at IES and other top conferences. Learn what works, avoid what doesn't, and validate your manuscript before submission.",
+    "btn_browse": "Browse Patterns",
+    "btn_checklist": "Run Checklist",
+    "stat_papers": "Papers Analyzed",
+    "stat_best": "Best Papers",
+    "stat_conferences": "Conference",
+    "stat_patterns": "Must-Do Patterns"
+  },
+  "conferences_section": {
+    "title": "Conferences &amp; Journals",
+    "sub": "Click a conference to see its winning patterns, figure strategy, and checklist.",
+    "placeholder_title": "Add a Conference",
+    "placeholder_sub": "Submit accepted papers to expand the database",
+    "items": [
+      {
+        "id": "ies",
+        "abbr": "IES",
+        "name": "International Electronics Symposium",
+        "org": "Politeknik Elektronika Negeri Surabaya (PENS)",
+        "papers_label": "4 papers analyzed",
+        "badge_gold": "2 Best Papers",
+        "badge_blue": "IES 2026 Open",
+        "href": "ies.html"
+      }
+    ]
+  },
+  "formula_section": {
+    "title": "The Universal Winning Formula",
+    "sub": "Patterns present across <strong>every</strong> accepted paper we've analyzed.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Quantifiable Problem Opening",
+        "desc": "Open with a real, measurable problem — a statistic, a gap, a hard constraint. Never vague motivation.",
+        "chip": "e.g. \"harvest area down 2.45% year-over-year\""
+      },
+      {
+        "num": "02",
+        "title": "Explicit Research Gap",
+        "desc": "State the gap directly: <em>\"while X has been studied, there is a gap in Y.\"</em> The Best Paper does this with one dedicated paragraph.",
+        "chip": "Best Paper strength"
+      },
+      {
+        "num": "03",
+        "title": "Justified Design Choices",
+        "desc": "Every component selection backed by data or literature — never \"we chose X because we thought it was good.\""
+      },
+      {
+        "num": "04",
+        "title": "Comparative Analysis",
+        "desc": "Show at least 2 approaches, materials, or methods side-by-side. Alternatives considered and rejected with reasons.",
+        "chip": "Table or side-by-side figure"
+      },
+      {
+        "num": "05",
+        "title": "Multi-Level Evidence",
+        "desc": "Validate through multiple channels: theory + simulation + hardware test, or design + user study + metrics."
+      },
+      {
+        "num": "06",
+        "title": "Defined Success Criteria",
+        "desc": "State the target upfront (e.g., descent rate ≤ 20 m/s, success rate ≥ 75%) and explicitly report whether it was met."
+      },
+      {
+        "num": "07",
+        "title": "Honest Limitations + Root Cause",
+        "desc": "Name failures and explain why they're acceptable. \"Parachute late inflation caused by heatshield blocking upward airflow.\""
+      },
+      {
+        "num": "08",
+        "title": "Result Visualization — Not Just Tables",
+        "desc": "Every accepted paper has charts/graphs alongside tables. Raw data visualized, not just numbers in text.",
+        "chip": "Most common gap",
+        "chip_class": "badge-red-chip"
+      }
+    ]
+  },
+  "about_section": {
+    "title": "About WinningWriter",
+    "p1": "WinningWriter is a pattern-extraction tool built from real accepted and best-paper submissions at academic conferences. Rather than generic writing advice, every pattern here is sourced directly from papers that reviewers actually accepted.",
+    "p2": "The database grows with each conference. Currently covers IES (International Electronics Symposium, PENS Surabaya) with 4 analyzed papers — 2 best papers and 2 accepted papers.",
+    "p3": "Planned: IEEE TENCON, ICICI-BME, EECCIS, and more. If you have accepted papers you'd like to contribute for analysis, the patterns will be extracted and added here.",
+    "p4": "Each conference page includes a full paper breakdown, figure strategy guide, DO/DON'T patterns, and an interactive pre-submission checklist sourced from the analyzed papers.",
+    "p5": "Start with <a href=\"ies.html\">IES →</a>"
+  },
+  "footer": {
+    "tagline": "Patterns from accepted papers",
+    "ies_tagline": "IES Patterns",
+    "back_link": "← Back to all conferences"
+  },
+  "ies_hero": {
+    "h1": "International Electronics<br>Symposium <span class=\"accent-ies\">IES</span>",
+    "org": "Politeknik Elektronika Negeri Surabaya (PENS) · Indonesia",
+    "stat_papers": "Papers Analyzed",
+    "stat_best": "Best Papers",
+    "stat_accepted": "Accepted Papers",
+    "stat_avg_pages": "Avg. Pages",
+    "btn": "IES 2026 Website →"
+  },
+  "ies_papers": {
+    "title": "Analyzed Papers",
+    "sub": "Click a paper to see its specific patterns and reviewer signals.",
+    "items": [
+      {
+        "id": "p1",
+        "badge": "Best Paper · IES 2024",
+        "badge_type": "gold",
+        "title": "Compact and Lightweight Foldable Umbrella Heatshield for CanSat",
+        "meta": { "pages": "8 pages", "figures": "15 figures", "tables": "3 tables", "refs": "18 refs" },
+        "section_win_title": "Why It Won Best Paper",
+        "win_points": [
+          "Multi-function mechanism (heatshield does 3 jobs simultaneously) — signals engineering efficiency",
+          "Actual test flight data from rocket launch — proves the concept at real scale",
+          "Material selection through comparative analysis across 6 candidates, not gut feeling",
+          "Acknowledges parachute failure + explains root cause (late inflation from blocked airflow)"
+        ],
+        "section_figs_title": "Figure Breakdown",
+        "fig_pills": [
+          { "text": "Mission overview diagram" },
+          { "text": "CAD renders (exploded views)" },
+          { "text": "Leadscrew mechanism drawing" },
+          { "text": "3D assembly renders" },
+          { "text": "3-step deployment photos" },
+          { "text": "Flight software flowchart" },
+          { "text": "Altitude vs packet count graph" },
+          { "text": "Tilt stability scatter plot" },
+          { "text": "Actual launch photo" }
+        ],
+        "section_results_title": "Results Method",
+        "results_text": "Comparison tables (density, durability, melt temp, cost) + line graphs of sensor telemetry + MAE stability metrics. Calculated vs. actual comparison."
+      },
+      {
+        "id": "p2",
+        "badge": "Best Paper · IES 2025",
+        "badge_type": "gold",
+        "title": "Thermal Deformation Analysis of CanSat Frame Materials using FEM",
+        "meta": { "pages": "6 pages", "figures": "12 figures", "tables": "6 tables", "refs": "11 refs" },
+        "section_win_title": "Why It Won Best Paper",
+        "win_points": [
+          "Fills an <strong>explicitly named</strong> research gap (\"comparative FEM at assembled system level — not studied before\")",
+          "FEM heat maps = visual proof more impactful than any table (color-coded stress distribution)",
+          "Makes a real engineering trade-off recommendation (polycarbonate vs. composite), not just reporting data",
+          "Rigorous FEM with mesh sensitivity analysis documented",
+          "Future work explicitly planned: thermal chamber testing to confirm simulation"
+        ],
+        "section_figs_title": "Figure Breakdown",
+        "fig_pills": [
+          { "text": "Chemical structure diagrams" },
+          { "text": "CanSat cross-section with zones" },
+          { "text": "FEM mesh visualization" },
+          { "text": "Boundary condition diagram" },
+          { "text": "Deformation heat maps ×3", "highlight": true },
+          { "text": "Von-Mises stress maps ×3", "highlight": true },
+          { "text": "Technical drawings with dimensions" }
+        ],
+        "section_results_title": "Results Method",
+        "results_text": "FEM color visualization (false-color scale, red=high/blue=low) + comparative table (3 materials × 2 metrics). Clear winner per criterion, not single winner overall."
+      },
+      {
+        "id": "p3",
+        "badge": "Accepted · IES",
+        "badge_type": "blue",
+        "title": "AR Batik Gamification System for Cultural Education",
+        "meta": { "pages": "8 pages", "figures": "9 figures", "tables": "5 tables", "refs": "25 refs" },
+        "section_win_title": "Reviewer Signals",
+        "win_points": [
+          "Opens with quantified cultural decline (2024 survey: only 29.6% adolescents wear Batik)",
+          "Usability testing with 7 real users, full response matrix shown (7×10 grid, nothing hidden)",
+          "82.86% success rate explicitly compared against 75% standard threshold",
+          "Each gamification element tied to learning psychology literature",
+          "25 references — deepest literature coverage of the 4 papers"
+        ],
+        "section_figs_title": "Figure Breakdown",
+        "fig_pills": [
+          { "text": "6-stage methodology flowchart" },
+          { "text": "IPO architecture diagram" },
+          { "text": "UI: Batik selection menu" },
+          { "text": "UI: AR scan interface" },
+          { "text": "UI: AR drawing challenge" },
+          { "text": "UI: Result with star rating" },
+          { "text": "UI: Leaderboard" },
+          { "text": "UI: User profile + achievements" }
+        ],
+        "section_results_title": "Results Method",
+        "results_text": "Full 7×10 respondent response matrix (1 / 0.5 / 0 scale) + step-by-step formula calculation + threshold comparison. Transparent, nothing cherry-picked."
+      },
+      {
+        "id": "p4",
+        "badge": "Accepted · IES",
+        "badge_type": "blue",
+        "title": "Real-Time IoT Agriculture Monitoring using AWS Cloud Services",
+        "meta": { "pages": "7 pages", "figures": "13 figures", "tables": "3 tables", "refs": "20 refs" },
+        "section_win_title": "Reviewer Signals",
+        "win_points": [
+          "Opens with BPS agricultural statistics (harvest area, production volume) — real national data",
+          "Architecture bottom-up: sensor → protocol → cloud services → visualization",
+          "Each AWS service explained with its specific role (not just \"we used AWS\")",
+          "Sequential implementation screenshots: 9 steps from device registration to live dashboard",
+          "MQTT client test results screenshot = proof of working connection"
+        ],
+        "section_figs_title": "Figure Breakdown",
+        "fig_pills": [
+          { "text": "System design block diagram" },
+          { "text": "Data flow flowchart" },
+          { "text": "AWS IoT ecosystem diagram" },
+          { "text": "SNS service diagram" },
+          { "text": "9 implementation screenshots", "highlight": true },
+          { "text": "Live dashboard with charts", "highlight": true },
+          { "text": "Hardware prototype photo" }
+        ],
+        "section_results_title": "Results Method",
+        "results_text": "Implementation narrative with sequential screenshots as validation evidence. Final dashboard shows multiple chart types (area, pie, gauge). Each step validated before moving to next."
+      }
+    ]
+  },
+  "ies_patterns": {
+    "title": "IES-Specific Patterns",
+    "sub": "Observations specific to IES across all analyzed papers.",
+    "do_title": "✓ DO",
+    "dont_title": "✗ DON'T",
+    "do_items": [
+      {
+        "title": "6–8 pages",
+        "desc": "All 4 papers are 6–8 pages. 5 pages may feel light; 9+ may get cut."
+      },
+      {
+        "title": "9–13 figures",
+        "desc": "Visual density signals completeness. Papers with &lt;6 figures tend to feel unfinished."
+      },
+      {
+        "title": "System + Flowchart + Results chart",
+        "desc": "Three figure types appear in every paper. Missing one is a common rejection risk."
+      },
+      {
+        "title": "Name your research gap explicitly",
+        "desc": "Best Paper states it as its own sentence. Others imply it — but explicit wins."
+      },
+      {
+        "title": "Define success criteria before results",
+        "desc": "e.g., \"Target descent rate ≤ 20 m/s\" stated in methodology, then confirmed in results."
+      },
+      {
+        "title": "Acknowledge partial failures",
+        "desc": "The heatshield best paper openly reports a failure and explains the mechanism. Reviewers trust this more than \"everything worked perfectly.\""
+      }
+    ],
+    "dont_items": [
+      {
+        "title": "Only tables, no charts",
+        "desc": "Zero accepted papers use tables as their sole result presentation. Add at least one chart."
+      },
+      {
+        "title": "Vague \"future work\"",
+        "desc": "\"Further research is needed\" does not count. Name the specific next step."
+      },
+      {
+        "title": "Justify choices by preference",
+        "desc": "\"We selected X because it is popular\" — always replace with a reference or measured comparison."
+      },
+      {
+        "title": "Design without validation",
+        "desc": "Minimum acceptable: simulation results. All 4 accepted papers have empirical or user-tested evidence."
+      },
+      {
+        "title": "No comparison to alternatives",
+        "desc": "Every accepted paper compares at least 2 options. Reviewers expect to see alternatives rejected."
+      }
+    ]
+  },
+  "ies_fig_strategy": {
+    "title": "Figure Strategy",
+    "sub": "The combination of figure types present in <strong>every</strong> accepted IES paper.",
+    "cols": ["Figure Type", "Purpose", "Heatshield ✦", "Thermal ✦", "AR Batik", "AWS IoT"],
+    "rows": [
+      { "type": "System Architecture", "purpose": "Shows all components and flow", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Technical Drawing / Diagram", "purpose": "Dimensioned, annotated design detail", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Comparative Visualization", "purpose": "Same metric across multiple options", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Results Chart / Graph", "purpose": "Raw data plotted, not just in table", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Hardware / Implementation Photo", "purpose": "Proof the system was actually built", "vals": ["✓","—","✓","✓"] }
+    ],
+    "note": "✦ Best Paper &nbsp;|&nbsp; Note: Thermal (Best Paper) has no hardware photo — FEM simulations serve as the visual proof instead.",
+    "insight": "<strong>Key insight:</strong> Figures are never decorative. Each one has a specific analytical job — validate design, compare alternatives, show results, or prove implementation. Papers with only tables and no charts are consistently weaker."
+  },
+  "ies_fig_combos": {
+    "title": "Figure Combinations That Work",
+    "sub": "Minimum viable figure set for IES based on all accepted papers.",
+    "items": [
+      {
+        "level": "required",
+        "label": "Required",
+        "icon": "🏗",
+        "title": "System Architecture",
+        "desc": "Block diagram or component diagram showing all major parts and their connections. Every single accepted paper has this."
+      },
+      {
+        "level": "required",
+        "label": "Required",
+        "icon": "🔄",
+        "title": "Process Flow / Flowchart",
+        "desc": "How data or control moves through the system. Decision diamonds, process boxes, arrows. Shows reviewer you understand the full pipeline."
+      },
+      {
+        "level": "required",
+        "label": "Required",
+        "icon": "📊",
+        "title": "Results Chart",
+        "desc": "At least one chart or graph visualizing your results data. Bar chart, line graph, scatter plot, heat map — any format. Tables alone are not enough."
+      },
+      {
+        "level": "required",
+        "label": "Required",
+        "icon": "⚖️",
+        "title": "Comparative Visual",
+        "desc": "Side-by-side comparison of 2+ options, materials, or methods. Table or paired figures. Shows design choices are data-driven."
+      },
+      {
+        "level": "strong",
+        "label": "Strong",
+        "icon": "📷",
+        "title": "Implementation Photo / Screenshot",
+        "desc": "Hardware built and photographed, or screenshots of a running system. 3 of 4 accepted papers include this. FEM heat maps serve the same \"proof of work\" function."
+      },
+      {
+        "level": "strong",
+        "label": "Strong",
+        "icon": "📐",
+        "title": "Technical Drawing with Dimensions",
+        "desc": "Annotated diagram with measurements, labels, or specifications. Signals engineering rigor. Present in winning CanSat and Best Paper."
+      }
+    ]
+  },
+  "ies_checklist": {
+    "title": "IES Pre-Submission Checklist",
+    "sub": "Check every box before submitting. Sourced from patterns across all 4 analyzed IES papers.",
+    "score_text": "{n} / {total} checked",
+    "groups": [
+      {
+        "title": "Introduction &amp; Framing",
+        "items": [
+          { "text": "Opens with a quantifiable, real-world problem (stat, constraint, or gap)" },
+          { "text": "Research gap stated explicitly in its own paragraph" },
+          { "text": "Your contribution is clearly listed (numbered or bulleted)" },
+          { "text": "Related work reviews at least 5 prior systems and positions yours beyond them" }
+        ]
+      },
+      {
+        "title": "Methodology &amp; Design",
+        "items": [
+          { "text": "Every major design choice justified by data or literature" },
+          { "text": "At least one comparative analysis (2+ options side-by-side)" },
+          { "text": "System architecture diagram present" },
+          { "text": "Success criteria defined (target values stated upfront)" },
+          { "text": "Algorithm or workflow formally specified (pseudocode / flowchart)" }
+        ]
+      },
+      {
+        "title": "Results &amp; Evaluation",
+        "items": [
+          { "text": "Quantitative results reported (numbers, not just \"it works\")" },
+          { "text": "Results chart or graph present (not tables alone)" },
+          { "text": "Results compared against a baseline or alternative" },
+          { "text": "Success criteria outcome reported (met / not met, and why)" },
+          { "text": "Hardware photo or implementation screenshot present (proof of build)" },
+          { "text": "Evaluation metrics formally defined" }
+        ]
+      },
+      {
+        "title": "Limitations &amp; Future Work",
+        "items": [
+          { "text": "Limitations stated honestly with root-cause explanation" },
+          { "text": "Scope clearly bounded (what this study does NOT cover)" },
+          { "text": "Future work is concrete and planned, not vague (\"maybe someday\")" },
+          { "text": "Future work items are numbered and actionable" }
+        ]
+      },
+      {
+        "title": "IES Format",
+        "items": [
+          { "text": "Paper is 6–8 pages (5 feels light, 9+ may get cut)" },
+          { "text": "Has 9–13 figures total" },
+          { "text": "Has system architecture + flowchart + at least one results chart" }
+        ]
+      },
+      {
+        "title": "Do NOT Include",
+        "warn": true,
+        "items": [
+          { "text": "✗ Vague conclusions (\"the system works well\", \"promising results\")", "warn": true },
+          { "text": "✗ Unjustified design choices (\"we chose X because we liked it\")", "warn": true },
+          { "text": "✗ Cherry-picked results (hide all 7×10 respondent data or all sensor runs)", "warn": true },
+          { "text": "✗ Design-only work with no validation (at minimum: simulation)", "warn": true },
+          { "text": "✗ No comparison to alternatives or prior work", "warn": true }
+        ]
+      }
+    ]
+  }
+}

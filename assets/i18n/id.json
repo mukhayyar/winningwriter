@@ -1,0 +1,419 @@
+{
+  "lang": "id",
+  "meta": {
+    "index_title": "WinningWriter — Belajar dari Makalah yang Diterima",
+    "ies_title": "IES — WinningWriter"
+  },
+  "nav": {
+    "home": "WinningWriter",
+    "conferences": "Konferensi",
+    "formula": "Formula",
+    "fig_strategy": "Strategi Gambar",
+    "about": "Tentang",
+    "all_conferences": "← Semua Konferensi",
+    "papers": "Makalah",
+    "patterns": "Pola",
+    "fig_combos": "Kombinasi Gambar",
+    "checklist": "Checklist",
+    "lang_label": "EN"
+  },
+  "hero": {
+    "badge": "Dibangun dari submission yang diterima & best paper",
+    "h1": "Tulis makalah yang <span class=\"accent\">diterima reviewer.</span>",
+    "sub": "Pola yang diekstrak dari makalah nyata yang diterima di IES dan konferensi terkemuka lainnya. Pelajari apa yang berhasil, hindari yang tidak, dan validasi naskah Anda sebelum submission.",
+    "btn_browse": "Jelajahi Pola",
+    "btn_checklist": "Jalankan Checklist",
+    "stat_papers": "Makalah Dianalisis",
+    "stat_best": "Best Paper",
+    "stat_conferences": "Konferensi",
+    "stat_patterns": "Pola Wajib"
+  },
+  "conferences_section": {
+    "title": "Konferensi &amp; Jurnal",
+    "sub": "Klik konferensi untuk melihat pola kemenangan, strategi gambar, dan checklist-nya.",
+    "placeholder_title": "Tambah Konferensi",
+    "placeholder_sub": "Submit makalah yang diterima untuk memperluas database",
+    "items": [
+      {
+        "id": "ies",
+        "abbr": "IES",
+        "name": "International Electronics Symposium",
+        "org": "Politeknik Elektronika Negeri Surabaya (PENS)",
+        "papers_label": "4 makalah dianalisis",
+        "badge_gold": "2 Best Paper",
+        "badge_blue": "IES 2026 Terbuka",
+        "href": "ies.html"
+      }
+    ]
+  },
+  "formula_section": {
+    "title": "Formula Kemenangan Universal",
+    "sub": "Pola yang ada di <strong>setiap</strong> makalah yang diterima yang telah kami analisis.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Pembuka Masalah yang Terukur",
+        "desc": "Buka dengan masalah nyata yang bisa diukur — statistik, celah, atau kendala keras. Jangan motivasi yang samar.",
+        "chip": "mis. \"luas panen turun 2,45% per tahun\""
+      },
+      {
+        "num": "02",
+        "title": "Celah Penelitian yang Eksplisit",
+        "desc": "Nyatakan celahnya secara langsung: <em>\"meskipun X telah diteliti, ada celah pada Y.\"</em> Best Paper melakukan ini dalam satu paragraf khusus.",
+        "chip": "Kekuatan Best Paper"
+      },
+      {
+        "num": "03",
+        "title": "Pilihan Desain yang Berdasar",
+        "desc": "Setiap pemilihan komponen didukung data atau literatur — jangan pernah \"kami memilih X karena menurut kami bagus.\""
+      },
+      {
+        "num": "04",
+        "title": "Analisis Komparatif",
+        "desc": "Tampilkan minimal 2 pendekatan, material, atau metode secara berdampingan. Alternatif dipertimbangkan dan ditolak dengan alasan.",
+        "chip": "Tabel atau gambar berdampingan"
+      },
+      {
+        "num": "05",
+        "title": "Bukti Multi-Level",
+        "desc": "Validasi melalui berbagai jalur: teori + simulasi + uji hardware, atau desain + studi pengguna + metrik."
+      },
+      {
+        "num": "06",
+        "title": "Kriteria Keberhasilan yang Terdefinisi",
+        "desc": "Nyatakan target di awal (mis., laju turun ≤ 20 m/s, tingkat keberhasilan ≥ 75%) dan laporkan secara eksplisit apakah tercapai."
+      },
+      {
+        "num": "07",
+        "title": "Keterbatasan + Akar Penyebab yang Jujur",
+        "desc": "Sebutkan kegagalan dan jelaskan mengapa masih bisa diterima. \"Parasut terlambat mengembang karena heatshield menghalangi aliran udara ke atas.\""
+      },
+      {
+        "num": "08",
+        "title": "Visualisasi Hasil — Bukan Hanya Tabel",
+        "desc": "Setiap makalah yang diterima memiliki grafik/chart di samping tabel. Data mentah divisualisasikan, bukan hanya angka dalam teks.",
+        "chip": "Celah paling umum",
+        "chip_class": "badge-red-chip"
+      }
+    ]
+  },
+  "about_section": {
+    "title": "Tentang WinningWriter",
+    "p1": "WinningWriter adalah alat ekstraksi pola yang dibangun dari submission makalah nyata yang diterima dan mendapat best paper di konferensi akademik. Berbeda dari saran penulisan generik, setiap pola di sini bersumber langsung dari makalah yang benar-benar diterima reviewer.",
+    "p2": "Database terus berkembang dengan setiap konferensi. Saat ini mencakup IES (International Electronics Symposium, PENS Surabaya) dengan 4 makalah yang dianalisis — 2 best paper dan 2 makalah yang diterima.",
+    "p3": "Rencana berikutnya: IEEE TENCON, ICICI-BME, EECCIS, dan lainnya. Jika Anda memiliki makalah yang diterima untuk dikontribusikan, polanya akan diekstrak dan ditambahkan di sini.",
+    "p4": "Setiap halaman konferensi mencakup breakdown makalah lengkap, panduan strategi gambar, pola LAKUKAN/HINDARI, dan checklist pra-submission interaktif berdasarkan makalah yang dianalisis.",
+    "p5": "Mulai dengan <a href=\"ies.html\">IES →</a>"
+  },
+  "footer": {
+    "tagline": "Pola dari makalah yang diterima",
+    "ies_tagline": "Pola IES",
+    "back_link": "← Kembali ke semua konferensi"
+  },
+  "ies_hero": {
+    "h1": "International Electronics<br>Symposium <span class=\"accent-ies\">IES</span>",
+    "org": "Politeknik Elektronika Negeri Surabaya (PENS) · Indonesia",
+    "stat_papers": "Makalah Dianalisis",
+    "stat_best": "Best Paper",
+    "stat_accepted": "Makalah Diterima",
+    "stat_avg_pages": "Rata-rata Halaman",
+    "btn": "Website IES 2026 →"
+  },
+  "ies_papers": {
+    "title": "Makalah yang Dianalisis",
+    "sub": "Klik makalah untuk melihat pola spesifik dan sinyal reviewer-nya.",
+    "items": [
+      {
+        "id": "p1",
+        "badge": "Best Paper · IES 2024",
+        "badge_type": "gold",
+        "title": "Compact and Lightweight Foldable Umbrella Heatshield for CanSat",
+        "meta": { "pages": "8 halaman", "figures": "15 gambar", "tables": "3 tabel", "refs": "18 ref" },
+        "section_win_title": "Mengapa Meraih Best Paper",
+        "win_points": [
+          "Mekanisme multi-fungsi (heatshield melakukan 3 pekerjaan sekaligus) — menandakan efisiensi rekayasa",
+          "Data penerbangan uji nyata dari peluncuran roket — membuktikan konsep pada skala nyata",
+          "Pemilihan material melalui analisis komparatif 6 kandidat, bukan perkiraan semata",
+          "Mengakui kegagalan parasut + menjelaskan akar penyebab (inflasi terlambat karena aliran udara terhalang)"
+        ],
+        "section_figs_title": "Rincian Gambar",
+        "fig_pills": [
+          { "text": "Diagram gambaran misi" },
+          { "text": "Render CAD (tampilan eksplosif)" },
+          { "text": "Gambar mekanisme leadscrew" },
+          { "text": "Render assembly 3D" },
+          { "text": "Foto deployment 3 langkah" },
+          { "text": "Flowchart perangkat lunak penerbangan" },
+          { "text": "Grafik altitude vs jumlah paket" },
+          { "text": "Scatter plot stabilitas kemiringan" },
+          { "text": "Foto peluncuran nyata" }
+        ],
+        "section_results_title": "Metode Hasil",
+        "results_text": "Tabel perbandingan (densitas, ketahanan, titik leleh, biaya) + grafik garis telemetri sensor + metrik stabilitas MAE. Perbandingan kalkulasi vs aktual."
+      },
+      {
+        "id": "p2",
+        "badge": "Best Paper · IES 2025",
+        "badge_type": "gold",
+        "title": "Thermal Deformation Analysis of CanSat Frame Materials using FEM",
+        "meta": { "pages": "6 halaman", "figures": "12 gambar", "tables": "6 tabel", "refs": "11 ref" },
+        "section_win_title": "Mengapa Meraih Best Paper",
+        "win_points": [
+          "Mengisi celah penelitian yang <strong>disebutkan secara eksplisit</strong> (\"FEM komparatif di level sistem terakit — belum pernah diteliti sebelumnya\")",
+          "Peta panas FEM = bukti visual lebih berdampak dari tabel manapun (distribusi tegangan dengan kode warna)",
+          "Memberikan rekomendasi trade-off rekayasa nyata (polikarbonat vs. komposit), bukan sekadar melaporkan data",
+          "FEM ketat dengan analisis sensitivitas mesh terdokumentasi",
+          "Pekerjaan masa depan direncanakan secara eksplisit: uji ruang termal untuk mengkonfirmasi simulasi"
+        ],
+        "section_figs_title": "Rincian Gambar",
+        "fig_pills": [
+          { "text": "Diagram struktur kimia" },
+          { "text": "Penampang CanSat dengan zona" },
+          { "text": "Visualisasi mesh FEM" },
+          { "text": "Diagram kondisi batas" },
+          { "text": "Peta panas deformasi ×3", "highlight": true },
+          { "text": "Peta tegangan Von-Mises ×3", "highlight": true },
+          { "text": "Gambar teknis dengan dimensi" }
+        ],
+        "section_results_title": "Metode Hasil",
+        "results_text": "Visualisasi warna FEM (skala warna palsu, merah=tinggi/biru=rendah) + tabel komparatif (3 material × 2 metrik). Pemenang jelas per kriteria, bukan pemenang tunggal keseluruhan."
+      },
+      {
+        "id": "p3",
+        "badge": "Diterima · IES",
+        "badge_type": "blue",
+        "title": "AR Batik Gamification System for Cultural Education",
+        "meta": { "pages": "8 halaman", "figures": "9 gambar", "tables": "5 tabel", "refs": "25 ref" },
+        "section_win_title": "Sinyal Reviewer",
+        "win_points": [
+          "Dibuka dengan penurunan budaya yang terukur (survei 2024: hanya 29,6% remaja memakai Batik)",
+          "Pengujian kegunaan dengan 7 pengguna nyata, matriks respons lengkap ditampilkan (grid 7×10, tidak ada yang disembunyikan)",
+          "Tingkat keberhasilan 82,86% dibandingkan secara eksplisit dengan ambang batas standar 75%",
+          "Setiap elemen gamifikasi dikaitkan dengan literatur psikologi pembelajaran",
+          "25 referensi — cakupan literatur terdalam dari 4 makalah"
+        ],
+        "section_figs_title": "Rincian Gambar",
+        "fig_pills": [
+          { "text": "Flowchart metodologi 6 tahap" },
+          { "text": "Diagram arsitektur IPO" },
+          { "text": "UI: Menu pemilihan Batik" },
+          { "text": "UI: Antarmuka pemindaian AR" },
+          { "text": "UI: Tantangan menggambar AR" },
+          { "text": "UI: Hasil dengan rating bintang" },
+          { "text": "UI: Papan peringkat" },
+          { "text": "UI: Profil pengguna + pencapaian" }
+        ],
+        "section_results_title": "Metode Hasil",
+        "results_text": "Matriks respons responden 7×10 lengkap (skala 1 / 0,5 / 0) + kalkulasi formula langkah demi langkah + perbandingan ambang batas. Transparan, tidak ada yang dipilih-pilih."
+      },
+      {
+        "id": "p4",
+        "badge": "Diterima · IES",
+        "badge_type": "blue",
+        "title": "Real-Time IoT Agriculture Monitoring using AWS Cloud Services",
+        "meta": { "pages": "7 halaman", "figures": "13 gambar", "tables": "3 tabel", "refs": "20 ref" },
+        "section_win_title": "Sinyal Reviewer",
+        "win_points": [
+          "Dibuka dengan statistik pertanian BPS (luas panen, volume produksi) — data nasional nyata",
+          "Arsitektur bottom-up: sensor → protokol → layanan cloud → visualisasi",
+          "Setiap layanan AWS dijelaskan dengan perannya yang spesifik (bukan sekadar \"kami menggunakan AWS\")",
+          "Screenshot implementasi berurutan: 9 langkah dari registrasi perangkat hingga dashboard langsung",
+          "Screenshot hasil uji klien MQTT = bukti koneksi yang berfungsi"
+        ],
+        "section_figs_title": "Rincian Gambar",
+        "fig_pills": [
+          { "text": "Diagram blok desain sistem" },
+          { "text": "Flowchart alur data" },
+          { "text": "Diagram ekosistem AWS IoT" },
+          { "text": "Diagram layanan SNS" },
+          { "text": "9 screenshot implementasi", "highlight": true },
+          { "text": "Dashboard langsung dengan grafik", "highlight": true },
+          { "text": "Foto prototipe hardware" }
+        ],
+        "section_results_title": "Metode Hasil",
+        "results_text": "Narasi implementasi dengan screenshot berurutan sebagai bukti validasi. Dashboard akhir menampilkan berbagai jenis grafik (area, pai, gauge). Setiap langkah divalidasi sebelum melanjutkan."
+      }
+    ]
+  },
+  "ies_patterns": {
+    "title": "Pola Khusus IES",
+    "sub": "Pengamatan khusus IES dari semua makalah yang dianalisis.",
+    "do_title": "✓ LAKUKAN",
+    "dont_title": "✗ HINDARI",
+    "do_items": [
+      {
+        "title": "6–8 halaman",
+        "desc": "Semua 4 makalah adalah 6–8 halaman. 5 halaman mungkin terasa kurang; 9+ mungkin dipotong."
+      },
+      {
+        "title": "9–13 gambar",
+        "desc": "Kepadatan visual menandakan kelengkapan. Makalah dengan &lt;6 gambar cenderung terasa belum selesai."
+      },
+      {
+        "title": "Sistem + Flowchart + Grafik Hasil",
+        "desc": "Tiga jenis gambar ini muncul di setiap makalah. Melewatkan satu adalah risiko penolakan yang umum."
+      },
+      {
+        "title": "Sebutkan celah penelitian secara eksplisit",
+        "desc": "Best Paper menyatakannya sebagai kalimat tersendiri. Yang lain menyiratkannya — tapi yang eksplisit menang."
+      },
+      {
+        "title": "Tentukan kriteria keberhasilan sebelum hasil",
+        "desc": "mis., \"Target laju turun ≤ 20 m/s\" dinyatakan dalam metodologi, kemudian dikonfirmasi dalam hasil."
+      },
+      {
+        "title": "Akui kegagalan parsial",
+        "desc": "Best paper heatshield secara terbuka melaporkan kegagalan dan menjelaskan mekanismenya. Reviewer lebih percaya ini daripada \"semuanya berjalan sempurna.\""
+      }
+    ],
+    "dont_items": [
+      {
+        "title": "Hanya tabel, tanpa grafik",
+        "desc": "Tidak ada makalah yang diterima hanya menggunakan tabel sebagai presentasi hasil. Tambahkan minimal satu grafik."
+      },
+      {
+        "title": "\"Pekerjaan masa depan\" yang samar",
+        "desc": "\"Penelitian lebih lanjut diperlukan\" tidak cukup. Sebutkan langkah spesifik berikutnya."
+      },
+      {
+        "title": "Justifikasi pilihan berdasarkan preferensi",
+        "desc": "\"Kami memilih X karena populer\" — selalu ganti dengan referensi atau perbandingan terukur."
+      },
+      {
+        "title": "Desain tanpa validasi",
+        "desc": "Minimal yang dapat diterima: hasil simulasi. Semua 4 makalah yang diterima memiliki bukti empiris atau diuji pengguna."
+      },
+      {
+        "title": "Tidak ada perbandingan dengan alternatif",
+        "desc": "Setiap makalah yang diterima membandingkan minimal 2 opsi. Reviewer mengharapkan melihat alternatif yang ditolak."
+      }
+    ]
+  },
+  "ies_fig_strategy": {
+    "title": "Strategi Gambar",
+    "sub": "Kombinasi jenis gambar yang ada di <strong>setiap</strong> makalah IES yang diterima.",
+    "cols": ["Jenis Gambar", "Tujuan", "Heatshield ✦", "Thermal ✦", "AR Batik", "AWS IoT"],
+    "rows": [
+      { "type": "Arsitektur Sistem", "purpose": "Menampilkan semua komponen dan alurnya", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Gambar Teknis / Diagram", "purpose": "Detail desain beranotasi dengan dimensi", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Visualisasi Komparatif", "purpose": "Metrik yang sama untuk beberapa opsi", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Grafik / Bagan Hasil", "purpose": "Data mentah diplot, bukan hanya dalam tabel", "vals": ["✓","✓","✓","✓"] },
+      { "type": "Foto Hardware / Screenshot Implementasi", "purpose": "Bukti sistem benar-benar dibangun", "vals": ["✓","—","✓","✓"] }
+    ],
+    "note": "✦ Best Paper &nbsp;|&nbsp; Catatan: Thermal (Best Paper) tidak memiliki foto hardware — simulasi FEM berfungsi sebagai bukti visual gantinya.",
+    "insight": "<strong>Insight utama:</strong> Gambar tidak pernah sekadar dekorasi. Masing-masing memiliki tugas analitis spesifik — validasi desain, membandingkan alternatif, menampilkan hasil, atau membuktikan implementasi. Makalah hanya dengan tabel dan tanpa grafik selalu lebih lemah."
+  },
+  "ies_fig_combos": {
+    "title": "Kombinasi Gambar yang Efektif",
+    "sub": "Set gambar minimum yang layak untuk IES berdasarkan semua makalah yang diterima.",
+    "items": [
+      {
+        "level": "required",
+        "label": "Wajib",
+        "icon": "🏗",
+        "title": "Arsitektur Sistem",
+        "desc": "Diagram blok atau diagram komponen yang menampilkan semua bagian utama dan koneksinya. Setiap makalah yang diterima memiliki ini."
+      },
+      {
+        "level": "required",
+        "label": "Wajib",
+        "icon": "🔄",
+        "title": "Alur Proses / Flowchart",
+        "desc": "Bagaimana data atau kontrol bergerak melalui sistem. Diamond keputusan, kotak proses, panah. Menunjukkan reviewer bahwa Anda memahami seluruh pipeline."
+      },
+      {
+        "level": "required",
+        "label": "Wajib",
+        "icon": "📊",
+        "title": "Grafik Hasil",
+        "desc": "Minimal satu grafik yang memvisualisasikan data hasil Anda. Bar chart, grafik garis, scatter plot, peta panas — format apapun. Tabel saja tidak cukup."
+      },
+      {
+        "level": "required",
+        "label": "Wajib",
+        "icon": "⚖️",
+        "title": "Visual Komparatif",
+        "desc": "Perbandingan berdampingan dari 2+ opsi, material, atau metode. Tabel atau gambar berpasangan. Menunjukkan pilihan desain berbasis data."
+      },
+      {
+        "level": "strong",
+        "label": "Kuat",
+        "icon": "📷",
+        "title": "Foto Implementasi / Screenshot",
+        "desc": "Hardware yang dibangun dan difoto, atau screenshot sistem yang berjalan. 3 dari 4 makalah yang diterima menyertakan ini. Peta panas FEM berfungsi sama sebagai \"bukti kerja\"."
+      },
+      {
+        "level": "strong",
+        "label": "Kuat",
+        "icon": "📐",
+        "title": "Gambar Teknis dengan Dimensi",
+        "desc": "Diagram beranotasi dengan pengukuran, label, atau spesifikasi. Menandakan ketegasan rekayasa. Ada di CanSat pemenang dan Best Paper."
+      }
+    ]
+  },
+  "ies_checklist": {
+    "title": "Checklist Pra-Submission IES",
+    "sub": "Centang setiap kotak sebelum submit. Bersumber dari pola di semua 4 makalah IES yang dianalisis.",
+    "score_text": "{n} / {total} tercentang",
+    "groups": [
+      {
+        "title": "Pendahuluan &amp; Framing",
+        "items": [
+          { "text": "Dibuka dengan masalah dunia nyata yang terukur (statistik, kendala, atau celah)" },
+          { "text": "Celah penelitian dinyatakan secara eksplisit dalam paragrafnya sendiri" },
+          { "text": "Kontribusi Anda tercantum jelas (bernomor atau berpoin)" },
+          { "text": "Tinjauan pustaka membahas minimal 5 sistem sebelumnya dan memposisikan penelitian Anda melampaui itu" }
+        ]
+      },
+      {
+        "title": "Metodologi &amp; Desain",
+        "items": [
+          { "text": "Setiap pilihan desain utama dibenarkan dengan data atau literatur" },
+          { "text": "Minimal satu analisis komparatif (2+ opsi berdampingan)" },
+          { "text": "Diagram arsitektur sistem tersedia" },
+          { "text": "Kriteria keberhasilan terdefinisi (nilai target dinyatakan di awal)" },
+          { "text": "Algoritma atau alur kerja dispesifikasikan secara formal (pseudocode / flowchart)" }
+        ]
+      },
+      {
+        "title": "Hasil &amp; Evaluasi",
+        "items": [
+          { "text": "Hasil kuantitatif dilaporkan (angka, bukan hanya \"berhasil\")" },
+          { "text": "Grafik atau bagan hasil tersedia (bukan hanya tabel)" },
+          { "text": "Hasil dibandingkan dengan baseline atau alternatif" },
+          { "text": "Hasil kriteria keberhasilan dilaporkan (tercapai / tidak tercapai, dan mengapa)" },
+          { "text": "Foto hardware atau screenshot implementasi tersedia (bukti pembangunan)" },
+          { "text": "Metrik evaluasi terdefinisi secara formal" }
+        ]
+      },
+      {
+        "title": "Keterbatasan &amp; Penelitian Lanjutan",
+        "items": [
+          { "text": "Keterbatasan dinyatakan dengan jujur disertai penjelasan akar penyebab" },
+          { "text": "Ruang lingkup dibatasi dengan jelas (apa yang TIDAK dicakup penelitian ini)" },
+          { "text": "Penelitian lanjutan bersifat konkret dan terencana, bukan samar (\"mungkin suatu saat\")" },
+          { "text": "Item penelitian lanjutan bernomor dan dapat ditindaklanjuti" }
+        ]
+      },
+      {
+        "title": "Format IES",
+        "items": [
+          { "text": "Makalah 6–8 halaman (5 terasa kurang, 9+ mungkin dipotong)" },
+          { "text": "Memiliki total 9–13 gambar" },
+          { "text": "Memiliki arsitektur sistem + flowchart + minimal satu grafik hasil" }
+        ]
+      },
+      {
+        "title": "JANGAN Sertakan",
+        "warn": true,
+        "items": [
+          { "text": "✗ Kesimpulan samar (\"sistem berjalan dengan baik\", \"hasil menjanjikan\")", "warn": true },
+          { "text": "✗ Pilihan desain tanpa justifikasi (\"kami memilih X karena kami suka\")", "warn": true },
+          { "text": "✗ Hasil yang dipilih-pilih (sembunyikan semua data responden 7×10 atau semua run sensor)", "warn": true },
+          { "text": "✗ Pekerjaan desain saja tanpa validasi (minimal: simulasi)", "warn": true },
+          { "text": "✗ Tidak ada perbandingan dengan alternatif atau penelitian sebelumnya", "warn": true }
+        ]
+      }
+    ]
+  }
+}

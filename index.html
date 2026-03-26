@@ -8,19 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-page="index">
 
 <!-- ═══════════════════════ NAV ═══════════════════════ -->
 <nav class="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <span class="logo-icon">✦</span> WinningWriter
+      <span class="logo-icon">✦</span> <span data-i18n="nav.home">WinningWriter</span>
     </a>
     <div class="nav-links">
-      <a href="#conferences">Conferences</a>
-      <a href="#formula">Formula</a>
-      <a href="ies.html#fig-strategy">Figure Strategy</a>
-      <a href="#about">About</a>
+      <a href="#conferences" data-i18n="nav.conferences">Conferences</a>
+      <a href="#formula" data-i18n="nav.formula">Formula</a>
+      <a href="ies.html#fig-strategy" data-i18n="nav.fig_strategy">Figure Strategy</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <button class="lang-btn" id="lang-switcher" onclick="switchLang()">ID</button>
     </div>
   </div>
 </nav>
@@ -28,24 +29,24 @@
 <!-- ═══════════════════════ HERO ═══════════════════════ -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">Built from accepted &amp; best-paper submissions</div>
-    <h1>Write papers that<br><span class="accent">reviewers accept.</span></h1>
-    <p class="hero-sub">
+    <div class="hero-badge" data-i18n="hero.badge">Built from accepted &amp; best-paper submissions</div>
+    <h1 data-i18n="hero.h1">Write papers that <span class="accent">reviewers accept.</span></h1>
+    <p class="hero-sub" data-i18n="hero.sub">
       Patterns extracted from real accepted papers at IES and other top conferences.
       Learn what works, avoid what doesn't, and validate your manuscript before submission.
     </p>
     <div class="hero-actions">
-      <a href="#conferences" class="btn-primary">Browse Patterns</a>
-      <a href="ies.html#checker" class="btn-secondary">Run Checklist</a>
+      <a href="#conferences" class="btn-primary" data-i18n="hero.btn_browse">Browse Patterns</a>
+      <a href="ies.html#checker" class="btn-secondary" data-i18n="hero.btn_checklist">Run Checklist</a>
     </div>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-n">4</span><span class="stat-l">Papers Analyzed</span></div>
+      <div class="stat"><span class="stat-n">4</span><span class="stat-l" data-i18n="hero.stat_papers">Papers Analyzed</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-n">2</span><span class="stat-l">Best Papers</span></div>
+      <div class="stat"><span class="stat-n">2</span><span class="stat-l" data-i18n="hero.stat_best">Best Papers</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-n">1</span><span class="stat-l">Conference</span></div>
+      <div class="stat"><span class="stat-n">1</span><span class="stat-l" data-i18n="hero.stat_conferences">Conference</span></div>
       <div class="stat-div"></div>
-      <div class="stat"><span class="stat-n">8</span><span class="stat-l">Must-Do Patterns</span></div>
+      <div class="stat"><span class="stat-n">8</span><span class="stat-l" data-i18n="hero.stat_patterns">Must-Do Patterns</span></div>
     </div>
   </div>
 </section>
@@ -54,39 +55,10 @@
 <section class="section" id="conferences">
   <div class="container">
     <div class="section-header">
-      <h2>Conferences &amp; Journals</h2>
-      <p>Click a conference to see its winning patterns, figure strategy, and checklist.</p>
+      <h2 data-i18n="conferences_section.title">Conferences &amp; Journals</h2>
+      <p data-i18n="conferences_section.sub">Click a conference to see its winning patterns, figure strategy, and checklist.</p>
     </div>
-
-    <div class="conf-grid">
-
-      <!-- IES Card -->
-      <a href="ies.html" class="conf-card conf-ies">
-        <div class="conf-tag">4 papers analyzed</div>
-        <div class="conf-logo-area">
-          <div class="conf-abbr">IES</div>
-        </div>
-        <div class="conf-info">
-          <h3>International Electronics Symposium</h3>
-          <p>Politeknik Elektronika Negeri Surabaya (PENS)</p>
-          <div class="conf-meta">
-            <span class="badge badge-gold">2 Best Papers</span>
-            <span class="badge badge-blue">IES 2026 Open</span>
-          </div>
-        </div>
-        <div class="conf-arrow">→</div>
-      </a>
-
-      <!-- Placeholder card -->
-      <div class="conf-card conf-placeholder">
-        <div class="conf-info" style="text-align:center; width:100%">
-          <div style="font-size:2.5rem; margin-bottom:0.75rem; opacity:0.3">+</div>
-          <h3 style="color: var(--muted)">Add a Conference</h3>
-          <p style="color: var(--muted-2)">Submit accepted papers to expand the database</p>
-        </div>
-      </div>
-
-    </div>
+    <div class="conf-grid" data-cms="conf-grid"></div>
   </div>
 </section>
 
@@ -94,56 +66,10 @@
 <section class="section section-dark" id="formula">
   <div class="container">
     <div class="section-header light">
-      <h2>The Universal Winning Formula</h2>
-      <p>Patterns present across <strong>every</strong> accepted paper we've analyzed.</p>
+      <h2 data-i18n="formula_section.title">The Universal Winning Formula</h2>
+      <p data-i18n="formula_section.sub">Patterns present across <strong>every</strong> accepted paper we've analyzed.</p>
     </div>
-
-    <div class="formula-grid">
-      <div class="formula-item">
-        <div class="formula-num">01</div>
-        <h4>Quantifiable Problem Opening</h4>
-        <p>Open with a real, measurable problem — a statistic, a gap, a hard constraint. Never vague motivation.</p>
-        <div class="example-chip">e.g. "harvest area down 2.45% year-over-year"</div>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">02</div>
-        <h4>Explicit Research Gap</h4>
-        <p>State the gap directly: <em>"while X has been studied, there is a gap in Y."</em> The Best Paper does this with one dedicated paragraph.</p>
-        <div class="example-chip">Best Paper strength</div>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">03</div>
-        <h4>Justified Design Choices</h4>
-        <p>Every component selection backed by data or literature — never "we chose X because we thought it was good."</p>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">04</div>
-        <h4>Comparative Analysis</h4>
-        <p>Show at least 2 approaches, materials, or methods side-by-side. Alternatives considered and rejected with reasons.</p>
-        <div class="example-chip">Table or side-by-side figure</div>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">05</div>
-        <h4>Multi-Level Evidence</h4>
-        <p>Validate through multiple channels: theory + simulation + hardware test, or design + user study + metrics.</p>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">06</div>
-        <h4>Defined Success Criteria</h4>
-        <p>State the target upfront (e.g., descent rate ≤ 20 m/s, success rate ≥ 75%) and explicitly report whether it was met.</p>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">07</div>
-        <h4>Honest Limitations + Root Cause</h4>
-        <p>Name failures and explain why they're acceptable. "Parachute late inflation caused by heatshield blocking upward airflow."</p>
-      </div>
-      <div class="formula-item">
-        <div class="formula-num">08</div>
-        <h4>Result Visualization — Not Just Tables</h4>
-        <p>Every accepted paper has charts/graphs alongside tables. Raw data visualized, not just numbers in text.</p>
-        <div class="example-chip badge-red-chip">Most common gap</div>
-      </div>
-    </div>
+    <div class="formula-grid" data-cms="formula-grid"></div>
   </div>
 </section>
 
@@ -151,32 +77,17 @@
 <section class="section" id="about">
   <div class="container">
     <div class="section-header">
-      <h2>About WinningWriter</h2>
+      <h2 data-i18n="about_section.title">About WinningWriter</h2>
     </div>
     <div class="about-grid">
       <div class="about-text">
-        <p>
-          WinningWriter is a pattern-extraction tool built from real accepted and best-paper
-          submissions at academic conferences. Rather than generic writing advice, every pattern
-          here is sourced directly from papers that reviewers actually accepted.
-        </p>
-        <p>
-          The database grows with each conference. Currently covers IES (International Electronics
-          Symposium, PENS Surabaya) with 4 analyzed papers — 2 best papers and 2 accepted papers.
-        </p>
-        <p>
-          Planned: IEEE TENCON, ICICI-BME, EECCIS, and more. If you have accepted papers you'd
-          like to contribute for analysis, the patterns will be extracted and added here.
-        </p>
+        <p data-i18n="about_section.p1">WinningWriter is a pattern-extraction tool built from real accepted and best-paper submissions at academic conferences. Rather than generic writing advice, every pattern here is sourced directly from papers that reviewers actually accepted.</p>
+        <p data-i18n="about_section.p2">The database grows with each conference. Currently covers IES (International Electronics Symposium, PENS Surabaya) with 4 analyzed papers — 2 best papers and 2 accepted papers.</p>
+        <p data-i18n="about_section.p3">Planned: IEEE TENCON, ICICI-BME, EECCIS, and more. If you have accepted papers you'd like to contribute for analysis, the patterns will be extracted and added here.</p>
       </div>
       <div class="about-text">
-        <p>
-          Each conference page includes a full paper breakdown, figure strategy guide, DO/DON'T
-          patterns, and an interactive pre-submission checklist sourced from the analyzed papers.
-        </p>
-        <p>
-          Start with <a href="ies.html">IES →</a>
-        </p>
+        <p data-i18n="about_section.p4">Each conference page includes a full paper breakdown, figure strategy guide, DO/DON'T patterns, and an interactive pre-submission checklist sourced from the analyzed papers.</p>
+        <p data-i18n="about_section.p5">Start with <a href="ies.html">IES →</a></p>
       </div>
     </div>
   </div>
@@ -186,12 +97,13 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-inner">
-      <span class="logo-icon">✦</span> WinningWriter &nbsp;·&nbsp; Patterns from accepted papers
+      <span class="logo-icon">✦</span> WinningWriter &nbsp;·&nbsp; <span data-i18n="footer.tagline">Patterns from accepted papers</span>
       <span class="footer-right">winningwriter.mukhayyar.my.id</span>
     </div>
   </div>
 </footer>
 
 <script src="assets/app.js"></script>
+<script src="assets/i18n.js"></script>
 </body>
 </html>
