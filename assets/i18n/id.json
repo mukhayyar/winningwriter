@@ -100,7 +100,7 @@
   "about_section": {
     "title": "Tentang WinningWriter",
     "p1": "WinningWriter adalah alat ekstraksi pola yang dibangun dari submission makalah nyata yang diterima dan mendapat best paper di konferensi akademik. Berbeda dari saran penulisan generik, setiap pola di sini bersumber langsung dari makalah yang benar-benar diterima reviewer.",
-    "p2": "Database terus berkembang dengan setiap konferensi. Saat ini mencakup IES (International Electronics Symposium, PENS Surabaya) dengan 4 makalah yang dianalisis — 2 best paper dan 2 makalah yang diterima.",
+    "p2": "Database terus berkembang dengan setiap konferensi. Saat ini mencakup IES (International Electronics Symposium, PENS Surabaya) dengan 4 makalah yang diterima — termasuk 2 best paper.",
     "p3": "Rencana berikutnya: IEEE TENCON, ICICI-BME, EECCIS, dan lainnya. Jika Anda memiliki makalah yang diterima untuk dikontribusikan, polanya akan diekstrak dan ditambahkan di sini.",
     "p4": "Setiap halaman konferensi mencakup breakdown makalah lengkap, panduan strategi gambar, pola LAKUKAN/HINDARI, dan checklist pra-submission interaktif berdasarkan makalah yang dianalisis.",
     "p5": "Mulai dengan <a href=\"ies.html\">IES →</a>"

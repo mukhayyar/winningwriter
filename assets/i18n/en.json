@@ -100,7 +100,7 @@
   "about_section": {
     "title": "About WinningWriter",
     "p1": "WinningWriter is a pattern-extraction tool built from real accepted and best-paper submissions at academic conferences. Rather than generic writing advice, every pattern here is sourced directly from papers that reviewers actually accepted.",
-    "p2": "The database grows with each conference. Currently covers IES (International Electronics Symposium, PENS Surabaya) with 4 analyzed papers — 2 best papers and 2 accepted papers.",
+    "p2": "The database grows with each conference. Currently covers IES (International Electronics Symposium, PENS Surabaya) with 4 accepted papers — including 2 best papers.",
     "p3": "Planned: IEEE TENCON, ICICI-BME, EECCIS, and more. If you have accepted papers you'd like to contribute for analysis, the patterns will be extracted and added here.",
     "p4": "Each conference page includes a full paper breakdown, figure strategy guide, DO/DON'T patterns, and an interactive pre-submission checklist sourced from the analyzed papers.",
     "p5": "Start with <a href=\"ies.html\">IES →</a>"
